@@ -1,0 +1,21 @@
+.home{
+    background-image: url(../img/background\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    box-shadow: inset 0px -40px 40px black;
+ }
+ 
+ .home__text {
+    font-size: 2.25rem;
+ }
+ 
+ .home__nome {
+    color: var(--primary-color);
+    font-size: 4rem;
+    font-weight: 700;
+ }

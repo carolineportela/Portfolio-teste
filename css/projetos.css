@@ -52,3 +52,23 @@
 .card:hover::before{
     transform:translateY(0%)
 }
+/* TABLET */
+@media (max-width: 960px) {
+    .projetos {
+        height: 420vh;
+    }
+    .card-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .card {
+        width: 672px;
+        height: 420px;
+    }
+    .card::before {
+        display: none;
+    }
+    .card:hover::before {
+        display: none;
+    }
+}

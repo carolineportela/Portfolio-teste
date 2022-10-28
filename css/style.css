@@ -66,56 +66,19 @@ footer {
 }
 
 /* tablet */
-@media (max-width:960px){
-
-main{
-        grid-template-columns: 1fr;
-
-}
-
-
-.logo {
-   align-items: center;
+@media(max-width: 960px) {
    
-}
-.home{
-
-
-
+    header {
+        max-width: 672px;
+    }
+    .back {
+        display: none;
+    }
 }
    
-   
-
-}
-
-
-.menu li{
-    display: none;
-
-}
-
-.sobre-mim{
- grid-template-areas: "description__title";
-
-
-}
-.description{
-    grid-template-areas: "description__title"
-    "description__text"
-    "skills";
-}
-.description__title{
-    margin-left: 2rem;
-}
-.description__text{
-    margin-left: 2rem;
-    display: flex;
-
-}
-
-
 
 /* mobile */
 @media(max-width:640px){
+   
 
 }

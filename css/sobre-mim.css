@@ -75,3 +75,21 @@
     font-size: 1.5rem;
     font-weight: 700;
 }
+/* TABLET */
+@media (max-width: 960px) {
+    .sobre-mim{ 
+        grid-template-areas: 
+        "title title"
+        "description description"
+        "skills skills";
+    }
+    .description, .skills {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    .skills__icons {
+        justify-content: space-evenly;
+        gap: 90px;
+    }
+
+}

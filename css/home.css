@@ -19,3 +19,13 @@
     font-size: 4rem;
     font-weight: 700;
  }
+
+ /* TABLET */
+@media (max-width: 960px) {
+   .home {
+       flex-direction: column;
+   }
+   .home div {
+       text-align: center;
+   }
+}

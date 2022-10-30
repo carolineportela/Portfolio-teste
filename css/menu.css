@@ -4,13 +4,17 @@
     font-size: 1.25rem;
 }
 
-.menu li{
+.menu li {
     border-bottom: 4px solid transparent;
-    transition: border-color .5s;
+    transition: border-color 0.25s;
 }
 
 .menu li:hover {
     border-bottom: 4px solid var(--primary-color);
+}
+
+.menu__lista {
+    display: none;
 }
 
 /* TABLET */

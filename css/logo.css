@@ -5,13 +5,13 @@
 .logo::before {
     content: "<";
     font-size: 1.5rem;
-    color: var(--primary-color);
     font-weight: 700;
+    color: var(--primary-color);
 }
 
 .logo::after {
     content: "/>";
     font-size: 1.5rem;
-    color: var(--primary-color);
     font-weight: 700;
+    color: var(--primary-color);
 }

@@ -91,6 +91,9 @@
         justify-content: space-evenly;
         gap: 90px;
     }
+    .skills__icons span {
+        font-size: 1.5rem;
+    }
 
 }
 

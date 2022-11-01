@@ -49,7 +49,7 @@
 /* TABLET */
 @media (max-width: 960px) {
     .projetos {
-        height: 420vh;
+        height: auto;
     }
     .card-container {
         flex-direction: column;
@@ -71,7 +71,7 @@
 @media (max-width: 640px) {
     .projetos {
         padding-top: 750px;
-        height: 420vh;
+        height: auto;
     }
     .card-container {
         flex-direction: column;

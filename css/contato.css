@@ -96,7 +96,7 @@
             "link link link";
         grid-template-rows: auto auto auto auto;
         padding: 0px 48px;
-        height: 260vh;
+        height: 300vh;
     }
     .contato-item {
         justify-content: center;
